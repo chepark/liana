@@ -22,11 +22,12 @@ function callback(entries, observer) {
       animateCounter(clientLastNumber, clientCounter);
       animateCounter(employeeLastNumber, employeeCounter, 100);
       animateCounter(userLastNumber, userCounter);
+
+      // remove observer once fired
+      observer.unobserve(counters);
     }
 
-    if (!entry.isIntersecting) {
-      return;
-    }
+    if (!entry.isIntersecting) return;
   });
 }
 
