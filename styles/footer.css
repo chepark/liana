@@ -5,10 +5,6 @@ footer {
 .footer-container {
   height: 150px;
 
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   justify-content: space-between;

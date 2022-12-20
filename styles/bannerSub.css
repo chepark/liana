@@ -4,7 +4,6 @@
   grid-template-columns: repeat(auto-fit, minmax(360px, auto));
   justify-content: center;
   justify-items: center;
-
   gap: 1rem;
 }
 
@@ -23,7 +22,9 @@
   justify-content: center;
   align-items: center;
 }
+¨
 
+/* BACKGROUND IMAGE */
 .bg-company {
   background-image: url(../assets/img/company.png);
 }

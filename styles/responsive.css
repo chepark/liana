@@ -1,5 +1,5 @@
 @media (width < 900px) {
-  /* ----- HEADER ------ */
+  /* HEADER */
   .topbar,
   .header-desktop {
     display: none;
@@ -25,7 +25,7 @@
     margin-right: 0;
   }
 
-  /* ----- NAVIGATION ----- */
+  /* NAVIGATION */
   .responsive-navigation {
     display: none;
 
