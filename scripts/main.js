@@ -1,3 +1,5 @@
+import "./newsFeed.js";
+
 const mainContent = document.querySelector(".main");
 const navCloseBtn = document.getElementById("nav-close");
 const navOpenBtn = document.getElementById("nav-open");
