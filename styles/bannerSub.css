@@ -1,3 +1,13 @@
+.banner-sub__img,
+.banner-sub__counter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+  justify-content: center;
+  justify-items: center;
+
+  gap: 1rem;
+}
+
 .banner-sub__img {
   margin-top: 40px;
   padding: 0;
@@ -14,12 +24,6 @@
   align-items: center;
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .bg-company {
   background-image: url(../assets/img/company.png);
 }
@@ -34,8 +38,6 @@
 
 /* COUNTER */
 .banner-sub__counter {
-  display: flex;
-  justify-content: space-around;
   margin-top: 77px;
   margin-bottom: 77px;
   padding: 0;

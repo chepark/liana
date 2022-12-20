@@ -14,11 +14,12 @@
 }
 
 .logo {
-  margin-right: 3rem;
+  margin-right: 1.5rem;
 }
 
-.header-left .menu {
+.navbar .menu-list {
   display: flex;
+  gap: 1rem;
 }
 
 .menu-item {
@@ -29,4 +30,12 @@
 
 .menu-item:hover {
   color: var(--black);
+}
+
+.header-container.mobile {
+  display: none;
+}
+
+.header-responsive {
+  display: none;
 }

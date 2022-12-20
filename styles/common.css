@@ -1,3 +1,4 @@
+/* COLOR PALETTE */
 :root {
   --primary-green: #4c8930;
   --light-green: #3d8618;
@@ -7,6 +8,7 @@
   --border-color: #e0e0e0;
 }
 
+/* DEFAULT FONTS AND STYLE */
 body {
   width: 100%;
 
@@ -15,13 +17,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
 button,
 input {
   font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-grey);
 }
 
 input {
@@ -53,10 +64,8 @@ button {
   color: white;
 }
 
-.text-center {
-  text-align: center;
-}
-
+/* CUSTOM STYLE BY CLASSES */
+/* CONTAINER */
 .container {
   max-width: 1200px;
   margin: auto;
@@ -66,7 +75,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   height: 100%;
 }
 
@@ -78,8 +86,18 @@ button {
   height: 100%;
 }
 
+/* CARD COMPONENT */
 .cards {
   padding-bottom: 2.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  justify-items: center;
+
+  gap: 1rem;
 }
 
 .card-content__row {
@@ -93,6 +111,11 @@ button {
 .card-content__column {
   display: flex;
   flex-direction: column;
+}
+
+/* FONT, TEXT ALIGN */
+.text-center {
+  text-align: center;
 }
 
 .text-bold {
