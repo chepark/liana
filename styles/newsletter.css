@@ -1,0 +1,22 @@
+.newsLetter {
+  border-top: 1px solid var(--border-color);
+}
+
+.newsletter-container {
+  max-width: 500px;
+}
+
+.newsLetter-description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.newsLetter-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#email {
+  width: 100%;
+}

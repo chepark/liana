@@ -1,0 +1,23 @@
+.card-reference {
+  width: 264px;
+  height: 390px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.reference-img {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.reference-meta {
+  height: 170px;
+  padding: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.reference-meta > .client {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}

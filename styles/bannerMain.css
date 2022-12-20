@@ -1,0 +1,11 @@
+.banner-main {
+  background-image: url(../assets/img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 418px;
+}
+
+.about-btn {
+  margin-top: 2rem;
+}

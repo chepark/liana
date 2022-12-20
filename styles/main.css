@@ -1,0 +1,28 @@
+@import "./common.css";
+@import "./topbar.css";
+@import "./header.css";
+@import "./bannerMain.css";
+@import "./bannerSub.css";
+@import "./news.css";
+@import "./reference.css";
+@import "./newsletter.css";
+@import "./footer.css";
+
+.news,
+.references {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.newsLetter {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+/* TABLET */
+@media (width > 768px) {
+}
+
+/* MOBILE */
+@media (width > 375px) {
+}
