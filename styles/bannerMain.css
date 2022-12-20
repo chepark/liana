@@ -1,0 +1,16 @@
+.banner-main {
+  background-image: url(../assets/img/banner.png);
+
+  height: 418px;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: 50% 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-btn {
+  margin-top: 2rem;
+}

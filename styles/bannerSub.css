@@ -1,0 +1,53 @@
+.banner-sub__img,
+.banner-sub__counter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+  justify-content: center;
+  justify-items: center;
+
+  gap: 1rem;
+}
+
+.banner-sub__img {
+  margin-top: 40px;
+  padding: 0;
+}
+
+.banner-sub__item {
+  width: 360px;
+  height: 222px;
+
+  font-size: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-company {
+  background-image: url(../assets/img/company.png);
+}
+
+.bg-products {
+  background-image: url(../assets/img/products.png);
+}
+
+.bg-contact {
+  background-image: url(../assets/img/contact.png);
+}
+
+/* COUNTER */
+.banner-sub__counter {
+  margin-top: 77px;
+  margin-bottom: 77px;
+  padding: 0;
+}
+
+.counter {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.counter-title {
+  font-size: 20px;
+}
