@@ -5,11 +5,12 @@ const userLastNumber = 10000;
 const speed = 100;
 
 const options = {
-  root: null, // viewport
+  root: null,
   threshold: 0.3,
 };
 
 let observer = new IntersectionObserver(callback, options);
+observer.observe(counters);
 
 function callback(entries, observer) {
   entries.forEach((entry) => {
@@ -28,8 +29,6 @@ function callback(entries, observer) {
     }
   });
 }
-
-observer.observe(counters);
 
 function animateCounter(lastNumber, target) {
   let start = 0;
