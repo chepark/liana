@@ -196,13 +196,21 @@
             <div class="container container__xy-center newsletter-container">
                 <div class="text-bold font-size-24 newsLetter-title">Subscribe to our newsletter</div>
                 <div class="text-center newsLetter-description">Follow our story and get the latest promotonial <br>
-                    about our products
-                    and
-                    events.</div>
+                    about our products and events.</div>
                 <form action="" class="newsLetter-form">
                     <input type="email" id="email" placeholder="Your email address" required>
-                    <button type="submit">Subscribe</button>
+                    <button type="submit" id="subscribe-btn">Subscribe</button>
                 </form>
+            </div>
+            <div class="newsletter-modal__bg hidden">
+                <div class="newsletter-modal">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                    <div class="text-bold font-size-20">Thank you.</div>
+                    <div class="text-bold font-size-20">Successfully subscribed!</div>
+                </div>
             </div>
         </section>
     </main>
@@ -223,19 +231,22 @@
             </div>
             <div class="footer footer-right">
                 <div class="footer-sitemap">
-                    <div class="sitemap-menu">Company</div>
-                    <div class="sitemap-menu">Products</div>
-                    <div class="sitemap-menu">Contact us</div>
-                    <div class="sitemap-menu">News</div>
-                    <div class="sitemap-menu">Intranet</div>
+                    <div class="sitemap-menu"><a href="#" class="color-white">Company</a></div>
+                    <div class="sitemap-menu"><a href="#" class="color-white">Products</a></div>
+                    <div class="sitemap-menu"><a href="#" class="color-white">Contact us</a></div>
+                    <div class="sitemap-menu"><a href="#" class="color-white">News</a></div>
+                    <div class="sitemap-menu"><a href="#" class="color-white">Intranet</a></div>
                 </div>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/LianaTechFI" target="_blank"><img
-                            class="footer-social__icon facebook" src="./assets/icons/facebook.svg" alt="facebook"></a>
-                    <a href="https://twitter.com/lianatech_fi" target="_blank"><img class="footer-social__icon twitter"
-                            src="./assets/icons/twitter.svg" alt="twitter"></a>
-                    <a href="https://www.linkedin.com/company/liana-technologies/" target="_blank"><img
-                            class="footer-social__icon linkedIn" src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://www.facebook.com/LianaTechFI" target="_blank">
+                        <img class="footer-social__icon facebook" src="./assets/icons/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/lianatech_fi" target="_blank">
+                        <img class="footer-social__icon twitter" src="./assets/icons/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/liana-technologies/" target="_blank">
+                        <img class="footer-social__icon linkedIn" src="./assets/icons/linkedin.svg" alt="linkedin">
+                    </a>
                 </div>
             </div>
         </div>

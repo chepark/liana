@@ -1,5 +1,6 @@
 import "./newsFeed.js";
 import "./counter.js";
+import "./newsletter.js";
 
 const mainContent = document.querySelector(".main");
 const navCloseBtn = document.getElementById("nav-close");

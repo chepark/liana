@@ -62,6 +62,7 @@ button {
   font-size: 16px;
 
   color: white;
+  cursor: pointer;
 }
 
 /* CUSTOM STYLE BY CLASSES */
