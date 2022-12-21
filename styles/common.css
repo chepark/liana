@@ -65,6 +65,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--light-green);
+}
+
 /* CUSTOM STYLE BY CLASSES */
 /* CONTAINER */
 .container {

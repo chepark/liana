@@ -28,7 +28,7 @@
   color: var(--text-grey);
 }
 
-.menu-item:hover {
+.menu-text:hover {
   color: var(--black);
 }
 

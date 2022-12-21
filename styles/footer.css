@@ -39,6 +39,10 @@ footer > div {
   gap: 1rem;
 }
 
+.sitemap-text:hover {
+  color: var(--primary-green);
+}
+
 .footer-social {
   margin-left: auto;
 }
