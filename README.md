@@ -58,3 +58,17 @@ The section describes how the assignment has been completed. Besides, challenges
 - styles: 8 hours
 - javascript: 4 hours
 - total: 14 hours
+
+## 6. Run the project
+
+### Empty in Latest News section?
+
+You need to fix **<u>CORS error</u>**
+
+1. Visit https://cors-anywhere.herokuapp.com/corsdemo
+2. Click "Request temporary access to the demo server" button
+<p align="center">
+  <img width="800px" height="auto" src="./assets/img/cors.png">
+</p>
+
+3. Open the index.html in localhost or go to the [demo link](https://effervescent-gumption-a93fe6.netlify.app/)
