@@ -39,6 +39,8 @@
 
     padding: 1rem 2rem;
     padding-top: 3rem;
+
+    animation: slideIn 0.3s ease;
   }
 
   .nav-top {
@@ -107,5 +109,16 @@
 
   .footer-contact {
     justify-content: space-between;
+  }
+}
+
+/* NAVBAR SLIDER */
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 300px;
   }
 }

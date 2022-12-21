@@ -2,6 +2,10 @@
 
 This is an coding assignment for the frontend internship position from Laina Technologies.
 
+<p align="center">
+  <img width="800px" height="auto" src="./assets/img/website.png">
+</p>
+
 ## 1. Functional Requirements
 
 - [x] Responsive designs for various devices
@@ -24,6 +28,10 @@ The section describes how the assignment has been completed. Besides, challenges
 8. Organize codes and add comments on codes
 
 ## 3. Overview
+
+<p align="center">
+  <img width="800px" height="auto" src="./assets/img/modules.png">
+</p>
 
 - `counter.js`: All logics to animate counters are saved.
 - `newsFeeds.js`: The file handles to fetch the news RSS feed and to render recent news.
