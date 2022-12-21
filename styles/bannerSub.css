@@ -22,19 +22,18 @@
   justify-content: center;
   align-items: center;
 }
-¨
 
 /* BACKGROUND IMAGE */
 .bg-company {
-  background-image: url(../assets/img/company.png);
+  background-image: url("../assets/img/company.png");
 }
 
 .bg-products {
-  background-image: url(../assets/img/products.png);
+  background-image: url("../assets/img/products.png");
 }
 
 .bg-contact {
-  background-image: url(../assets/img/contact.png);
+  background-image: url("../assets/img/contact.png");
 }
 
 /* COUNTER */
