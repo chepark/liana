@@ -33,11 +33,13 @@ The section describes how the assignment has been completed. Besides, challenges
   <img width="800px" height="auto" src="./assets/img/modules.png">
 </p>
 
+- `main.js`: All modules are imported on this file. It is linked to `index.html`
 - `counter.js`: All logics to animate counters are saved.
 - `newsFeeds.js`: The file handles to fetch the news RSS feed and to render recent news.
 - `newsLetter.js`: The file has codes display and hide the newsletter notification modal.
 - `utils.js`: Helper functions such as `formatDate` are located.
-- `main.js`: All modules are imported on this file. It is linked to `index.html`
+- `assets`: The directory where image and icon files are kept.
+- `styles`: The directory where `.css` files are located. Each file has styles corresponding to the matching UI component.
 
 ## 4. Challenges
 
