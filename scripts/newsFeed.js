@@ -49,6 +49,10 @@ function showNews(result) {
       newsList[i].getElementsByTagName("pubDate")[0].childNodes[0].nodeValue;
     const dateString = formatDate(xmlPubDate);
 
+    // extract link of the news.
+    const link =
+      newsList[i].getElementsByTagName("link")[0].childNodes[0].nodeValue;
+
     // extract news title
     const newsTitle =
       newsList[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
@@ -62,6 +66,11 @@ function showNews(result) {
     card.classList.add("card-content__column");
     card.classList.add("card-news");
 
+    // create an anchor tag.
+    const anchor = document.createElement("a");
+    anchor.target = "_blank";
+    anchor.href = link;
+
     // create a div element to hold a published date
     const dateDiv = document.createElement("div");
     dateDiv.classList.add("news-date");
@@ -73,8 +82,9 @@ function showNews(result) {
     titleDiv.textContent = newsTitle;
 
     // append the date and the title in the card element.
-    card.appendChild(dateDiv);
-    card.appendChild(titleDiv);
+    card.appendChild(anchor);
+    anchor.appendChild(dateDiv);
+    anchor.appendChild(titleDiv);
 
     // append the card into the Latest News section.
     newsWrapper.appendChild(card);

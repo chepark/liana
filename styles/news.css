@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+.card-news > a {
+  color: var(--black);
+}
+
 .card-news:hover {
   transform: scale(1.01);
 }
